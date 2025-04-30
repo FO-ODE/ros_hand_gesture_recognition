@@ -1,5 +1,4 @@
 <launch>
-    <include file="$(find my_cam)/launch/my_cam.launch" />
     <include file="$(find ros_hand_gesture_recognition)/launch/hand_sign.launch" />
     
     <arg name="publish_gesture_topic" default="/gesture/hand_sign"/>
